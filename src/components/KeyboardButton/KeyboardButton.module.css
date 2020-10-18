@@ -1,4 +1,23 @@
+.rubberButtonContainer {
+  position: relative;
+  height: 40px;
+  width: 60px;
+}
+
 .rubberButton {
-  background-color: darkgray;
-  color: white;
+  height: inherit;
+  width: inherit;
+  border-radius: 3px;
+  background-color: rgb(132, 133, 133);
+}
+
+.rubberButtonText {
+  text-align: right;
+  width: 45px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  color: rgb(254, 250, 250);
+  bottom: 7px;
 }

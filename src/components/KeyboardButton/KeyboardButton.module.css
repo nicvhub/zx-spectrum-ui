@@ -8,7 +8,7 @@
   height: inherit;
   width: inherit;
   border-radius: 3px;
-  background-color: rgb(132, 133, 133);
+  background-color: rgb(152, 155, 155);
   border-style: none;
 }
 
@@ -24,9 +24,18 @@
 }
 
 .rubberButtonText::before {
-  content: attr(data-first-char);
+  content: attr(data-super-script);
   position: absolute;
   top: -20px;
   left: 0px;
   font-size: 1.3rem;
+}
+
+.rubberButtonText::after {
+  content: attr(data-alt);
+  position: absolute;
+  top: -20px;
+  right: 0px;
+  font-size: 0.6rem;
+  color: rgb(216, 28, 28);
 }

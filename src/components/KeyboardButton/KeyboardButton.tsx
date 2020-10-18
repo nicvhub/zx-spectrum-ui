@@ -25,14 +25,17 @@ const KeyboardButton = ({
   return (
     <div
       css={css`
+        display: inline-block;
         position: relative;
         height: 40px;
         width: 60px;
+        margin: 5px;
       `}
     >
       <button
         type="button"
         css={css`
+          display: inline-block;
           height: inherit;
           width: inherit;
           border-radius: 3px;
